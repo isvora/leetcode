@@ -1,4 +1,4 @@
-package aoc2022;
+package aoc2022.day_1;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -11,7 +11,7 @@ import java.util.List;
 public class CalorieCount {
 
     public static void main(String[] args) throws IOException {
-        Path path = Paths.get("src/aoc2022/input.txt");
+        Path path = Paths.get("src/aoc2022/day_1/input.txt");
         List<String> text = Files.readAllLines(path);
 
         List<Integer> input = new ArrayList<>();
